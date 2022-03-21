@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* FUENTES  TITULOS */
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+JP & display=swap');
+/* 'Noto Sans JP', sans-serif; */
+
+/* FUENTES  SUBTITULOS */
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:ital,wght@1,200 & display=swap');
+/* 'Roboto Mono', monoespaciado; */
+
+/* FUENTES TEXTO*/
+@import url('https://fonts.googleapis.com/css2? familia= Fuente+Sans+Pro:ital@1 & display=swap');
+/*'Source Sans Pro', sans-serif; */
+
+
+body{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(190, 190, 189);
+    color:black;
+    padding: 0.5em;
+    bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* COLOR NAVBAR */
+.gris{
+    background-color: rgb(190, 190, 189);
+    border-bottom: 2px solid black;
+}
+
+/* HOME */
+
+#body-home{
+    background-color: rgb(236,235,227);
+}
+
+.sectionInicio1{
+   min-height: 82vh;
+}
+
+.videoInicio{
+  height: 100%;
+  width: 100%;
+}
+
+.sectionInicio2{
+    min-height: 80vh;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionInicio3{
+    min-height: 70vh;
+    border-bottom: 2px solid black;
+}
+
+
+.sectionInicio4{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-inicio2{
+    margin-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.texto-inicio2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.subtitulo-inicio3{
+    font-family: 'Roboto Mono';
+    font-size: 35px;
+}
+
+.texto-inicio3{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+
+.boton-inicio{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 15px;
+    box-shadow: 5px 8px 12px black;
+}
+
+.boton-inicio:hover{
+    background-color: rgb(255, 230, 43);
+}
+
+.titulo-inicio4{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 70px;
+}
+
+
+/* SERVICIOS */
+
+#body-servicios{
+    background-color: rgb(236,235,227);
+}
+
+.section-servicio1{
+    height: 90vh;
+    border-bottom: 2px solid black;
+}
+
+.titulo-servicio1{
+    height: 2em;
+    font-family:'Noto Sans JP', sans-serif;
+}
+
+.subtitulo-servicio{
+    font-family: 'Roboto Mono', monoespaciado;
+}
+
+.subtitulito-servicio{
+    font-family: 'Roboto Mono', monoespaciado;
+}
+
+.caja{
+    border: 2px solid black;
+}
+
+
+
+
+
+/* ETAPAS */
+
+#body-etapas{
+    background-color: rgb(236,235,227);
+}
+
+.img-banner{
+    max-width: 100%;
+}
+
+.amarillo{
+    color: yellow;
+}
+
+.border-etapas1{
+    border-left: 3px solid black;
+}
+
+.border-etapas2{
+    border-left: 3px solid yellow;
+}
+
+.etapa1{
+    min-height: 50vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa2{
+    min-height: 50vh;
+    background-color: rgb(35,31,32);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa3{
+    min-height: 50vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa4{
+    min-height: 50vh;
+    background-color: rgb(35,31,32);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa5{
+    min-height: 50vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa6{
+    min-height: 50vh;
+    background-color: rgb(35,31,32);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.etapa7{
+    min-height: 50vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-etapas{
+    background-color: rgb(35,31,32);
+    color: white;
+}
+
+
+
+
+
+/* OBRAS */
+#body-obras{
+    background-color: rgb(236,235,227);
+}
+
+
+/* NOSOTROS */
+#body-nosotros{
+    background-color: rgb(236,235,227);
+}
+
+.titulo-nosotros{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.texto-nosotros{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+.equipo{
+    width: 100%;
+}
+
+.subtitulo-nosotros2{
+    font-family: 'Roboto Mono', monoespaciado ;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+/* CONTACTO */
+#body-contacto{
+    background-color: rgb(236,235,227);
+}
+
+.boton-contacto{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+.boton-contacto:hover{
+    background-color: rgb(255, 230, 43);
+}
+
+
+
+
